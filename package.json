@@ -12,6 +12,7 @@
     "url": "https://github.com/hywax/renovate-config/issues"
   },
   "scripts": {
+    "release": "pnpm test && pnpm validate && changelogen --release && pnpm publish && git push --follow-tags",
     "validate": "renovate-config-validator default.json",
     "test": "pnpm validate"
   },
