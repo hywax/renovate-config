@@ -1,0 +1,23 @@
+{
+  "name": "@hywax/renovate-config",
+  "version": "0.0.0",
+  "description": "Shareable Renovate config presets by Hywax.",
+  "license": "MIT",
+  "homepage": "https://github.com/hywax/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hywax/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hywax/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "test": "pnpm validate"
+  },
+  "files": ["default.json"],
+  "devDependencies": {
+    "renovate": "^37.153.2"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
