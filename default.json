@@ -7,7 +7,7 @@
     ":semanticCommitTypeAll(chore)",
     ":automergeAll"
   ],
-  "labels": ["renovate"],
+  "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
