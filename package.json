@@ -1,6 +1,6 @@
 {
   "name": "@hywax/renovate-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shareable Renovate config presets by Hywax.",
   "license": "MIT",
   "homepage": "https://github.com/hywax/renovate-config",
