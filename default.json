@@ -1,0 +1,21 @@
+{
+  "description": "Shareable Renovate config presets by Hywax",
+  "extends": [
+    "config:recommended",
+    ":dependencyDashboard",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)",
+    ":automergeAll"
+  ],
+  "labels": ["renovate"],
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "schedule": ["on Sunday"]
+    }
+  ]
+}
