@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/hywax/renovate-config/compare/v0.1.0...v0.1.1)
+
+### 📦 Build
+
+- Release script ([bb4c0f6](https://github.com/hywax/renovate-config/commit/bb4c0f6))
+
+### 🏡 Chore
+
+- Rename label renovate -> dependencies ([0aca90e](https://github.com/hywax/renovate-config/commit/0aca90e))
+- Rebuild rules ([e349842](https://github.com/hywax/renovate-config/commit/e349842))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.1.0
 
 
