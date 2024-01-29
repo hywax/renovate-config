@@ -1,12 +1,15 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Shareable Renovate config presets by Hywax",
   "extends": [
     "config:recommended",
-    ":dependencyDashboard",
     "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)",
-    ":automergeAll"
+    ":disableDependencyDashboard",
+    ":semanticCommitTypeAll(chore)"
   ],
+  "meteor": {
+    "enabled": false
+  },
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "npm": {
@@ -15,7 +18,9 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "schedule": ["on Sunday"]
+      "automerge": true,
+      "automergeSchedule": ["at any time"],
+      "schedule": ["every 7 day"]
     }
   ]
 }
