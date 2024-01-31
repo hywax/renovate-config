@@ -7,9 +7,6 @@
     ":disableDependencyDashboard",
     ":semanticCommitTypeAll(chore)"
   ],
-  "meteor": {
-    "enabled": false
-  },
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "npm": {
