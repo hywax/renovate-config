@@ -20,8 +20,8 @@
     "default.json"
   ],
   "devDependencies": {
-    "changelogen": "^0.5.7",
-    "renovate": "^39.176.4"
+    "changelogen": "^0.6.0",
+    "renovate": "^39.185.0"
   },
-  "packageManager": "pnpm@9.15.5"
+  "packageManager": "pnpm@9.15.6"
 }
