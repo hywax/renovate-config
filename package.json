@@ -21,7 +21,7 @@
   ],
   "devDependencies": {
     "changelogen": "^0.6.1",
-    "renovate": "^40.24.0"
+    "renovate": "^40.29.1"
   },
   "packageManager": "pnpm@10.11.0"
 }
