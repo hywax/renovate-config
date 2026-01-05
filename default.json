@@ -5,6 +5,7 @@
     "config:recommended",
     "group:allNonMajor",
     ":disableDependencyDashboard",
+    ":maintainLockFilesWeekly",
     ":semanticCommitTypeAll(chore)"
   ],
   "labels": ["dependencies"],
