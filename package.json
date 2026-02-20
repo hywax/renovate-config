@@ -23,5 +23,5 @@
     "changelogen": "^0.6.2",
     "renovate": "^42.99.0"
   },
-  "packageManager": "pnpm@10.30.0"
+  "packageManager": "pnpm@10.30.1"
 }
